@@ -66,8 +66,8 @@ public class GameView extends JPanel {
 		
 		// djh2-KEC110-21: changed from GREEN to RED
 		// djh2-YCPlaptop: change from RED to YELLOW
-		g.setColor(Color.YELLOW);
-
+		g.setColor(Color.GREEN);
+		//SUP
 		Square square = model.getSquare();
 		
 		g.fillRect((int) square.getX(), (int) square.getY(), (int) square.getWidth(), (int) square.getHeight());
